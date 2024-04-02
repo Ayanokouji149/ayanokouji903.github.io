@@ -12,11 +12,10 @@ body {
   height:500px;
   width:800px;
   margin:5em auto;
-  position: fixed;
   top: -15px;
   left: 25%;
   display: flex;
-   visibility: hidden;
+  visibility: hidden;
 }
 #card h2 {
    font-size: 3em;
@@ -27,8 +26,8 @@ body {
 #card p {
    font-size: 1.5em;
    text-align: justify;
-   padding-left: 30px;
-   padding-right: 30px;
+   padding-left: auto;
+   padding-right: auto;
 }
 
 
