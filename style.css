@@ -1,5 +1,6 @@
 body {
- margin:0;
+ margin: 0;
+ padding: 0;
  background: rgb(234, 223, 153);
  height: 100%;
  display: flex;
@@ -9,42 +10,44 @@ body {
 }
 
 #card {
-  height:500px;
-  width:800px;
-  margin:5em auto;
-  top: -15px;
-  left: 25%;
+  margin: 5em;
+  padding: 5em;
   display: flex;
-  visibility: hidden;
 }
 #card h2 {
-   font-size: 2em;
+   font-size: 4em;
    margin: 0;
    color: pink;
    text-align: center;
 }
 #card p {
-   font-size: 1.5em;
-   text-align: justify;
-   padding-left: auto;
-   padding-right: auto;
+   font-size: 1.17em;
+   text-align:center;
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
 
 .side {
    background: #eee;
-   height: 550px;
-   width: 400px;
    padding: 10px;
 }
 .side.one {
-   width: 320px;
+   height: 500px;
+   width: 580px;
    transform: skew(10deg,20deg);
    background:  linear-gradient(90deg, #ffedfa, #fce6f6 40%, #ffd5f4);
 }
 .side.two {
+   height: 500px;
+   width: 700px;
    transform: skew(10deg,-17deg);
    background: linear-gradient(-90deg, #ffedfa, #fce6f6 40%, #ffd5f4);
+}
+
+.img{
+   width: 100%;
+   height: 100%;
 }
 
   svg.rose {
