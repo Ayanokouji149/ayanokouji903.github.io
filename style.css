@@ -25,7 +25,7 @@ body {
 }
 #card p {
    font-size: 1.5em;
-   text-align: justify;
+   text-align: center;
    padding-left: auto;
    padding-right: auto;
 }
